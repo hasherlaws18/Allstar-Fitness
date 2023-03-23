@@ -1,6 +1,8 @@
 const router = require('express').Router();
 const express = require('express');
 const sequelize = require('./config/connection');
+const routes = require('./Controllers')
+
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -10,6 +12,9 @@ app.use(express.json());
 
 //turn on routes
 app.use(routes);
+
+//link the sequelize page
+
 
 //turn on connection to db and and server
 sequelize.sync({force: false}).then(() => {
