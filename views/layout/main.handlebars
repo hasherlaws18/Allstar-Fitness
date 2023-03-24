@@ -1,6 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allstar Exercise Tracker</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>
+                <a href="/">Home</a>
+            </h1>
+            <nav>
+                {{#if loggedIn}}
+                <a href="/dashboard">Track My Workouts</a>
+                <a href="/workout-search">Search for Exercises</a>
+                <button id="logout" class="btn-no-style logout">Log Out</button>
+                {{else}}
+                <a href="/login">Login</a>
+                {{/if}}
+            </nav>
+        </header>
+        <div class="site-row">
+            <div class="site-name">
+                <h1>Exercise Tracker</h1>
+            </div>
+        </div>
+        <main>
+            {{{ body }}}
+        </main>
+    </div>
+
+    {{#if loggedIn}}
+    <script src="/javascript/logout.js"></script>
+    {{/if}}
+</body>
+
+<!-- <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,5 +72,6 @@
 
    <!--JavaScript-->
    <script src="public/script.js"></script>
-</body>
+</body>  -->
+
 </html>
