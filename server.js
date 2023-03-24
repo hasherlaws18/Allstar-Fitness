@@ -11,7 +11,13 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 //turn on routes
-app.use(routes);
+app.use(routes); // routes is not defined
+
+//set up session
+
+//set up sequelize store
+
+//set up express handlebars - goes in views
 
 //link the sequelize page
 
@@ -20,3 +26,4 @@ app.use(routes);
 sequelize.sync({force: false}).then(() => {
     app.listen(PORT, () => console.log('Now Listening'));
 });
+
