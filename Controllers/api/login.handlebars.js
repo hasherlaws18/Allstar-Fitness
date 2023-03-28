@@ -22,3 +22,5 @@ router.get('dashborad', (req, res) => {
         res.send('Unauthorize User')
     }
 })
+
+router.get('signup')
