@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allstar Exercise Tracker</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>
+                <a href="/">Home</a>
+            </h1>
+            <nav>
+                {{#if loggedIn}}
+                <a href="/dashboard">Track My Workouts</a>
+                <a href="/workout-search">Search for Exercises</a>
+                <button id="logout" class="btn-no-style logout">Log Out</button>
+                {{else}}
+                <a href="/login">Login</a>
+                {{/if}}
+            </nav>
+        </header>
+        <div class="site-row">
+            <div class="site-name">
+                <h1>Allstar Exercise Tracker</h1>
+            </div>
+        </div>
+        <main>
+            {{{ body }}}
+        </main>
+    </div>
+
+    {{#if loggedIn}}
+    <script src="/javascript/logout.js"></script>
+    {{/if}}
+</body>
+
+<!-- <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllStar Workout</title>
+    
+
+    <link rel="stylesheet" href="./public/style.css">
+
+   
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        {{#if logged_in}}
+        <nav>
+            <button id="logout">logout</button>
+        </nav>
+        {{/if}}
+    </header>
+    
+    <main>
+        {{{ body }}}
+    </main>
+
+    {{#if logged_in}}
+    <script src="/public/js/logout.js"></script>
+    {{/if}}
+</body>
+
+   
+   <script src="public/script.js"></script>
+</body>  -->
+
+</html>
