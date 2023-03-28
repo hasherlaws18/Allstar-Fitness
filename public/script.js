@@ -24,5 +24,4 @@ links.forEach(link => {
         preventDefault(); //prevents the form submit
         forms.classList.toggle("show-signup");
     })
-})
-
+}) 
