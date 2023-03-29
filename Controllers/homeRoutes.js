@@ -1,4 +1,4 @@
-const router = require(express).router();
+const router = require('express').Router();
 const {User} = require('../models');
 const { findAll } = require('../models/User');
 const withAuth = require('../utils/Auth');
@@ -24,7 +24,7 @@ router.get('/', withAuth, async (req, res) => {
 });
 
 //if a session exists, redirect the request to the homepage
-router.get('/login', (req, res) => {
+router.get('/homepage', (req, res) => {
     if(req.session.logged_in) {
         res.redirect('/');
         return;
