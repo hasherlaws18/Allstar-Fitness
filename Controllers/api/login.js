@@ -15,7 +15,7 @@ router.post('login', (req, res) => {
     }
 });
 
-router.get('dashborad', (req, res) => { 
+router.get('dashboard', (req, res) => { 
     if(req.session.user) {
         res.render('dashboard', {user: req.body.session})
     } else {
