@@ -7,7 +7,7 @@ const {
 
 
 router.get('/', (req, res) => {
-    Post.findAll({
+    models.Post.findAll({
             attributes: [
                 'id',
                 'title',

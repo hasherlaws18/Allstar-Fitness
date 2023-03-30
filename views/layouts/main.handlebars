@@ -11,17 +11,11 @@
 <body>
     <div class="wrapper">
         <header>
-            <h1>
-                <a href="/">Home</a>
-            </h1>
             <nav>
 
                 {{#if loggedIn}}
                 <a href="/dashboard">Track My Workouts</a>
                 <button id="logout" class="btn-no-style logout">Log Out</button>
-
-                {{else}}
-                <a href="/login">Login</a>
                 {{/if}}
 
             </nav>
@@ -37,7 +31,7 @@
     </div>
 
     {{#if loggedIn}}
-    <script src="../../public/js/logout.js">Logout</script>
+    <script src="/js/logout.js">Logout</script>
     {{/if}}
 
 </body>

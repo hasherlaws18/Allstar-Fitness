@@ -2,33 +2,38 @@
 # AllStar Fitness Tracker
 ## Table of Contents
 1.[Description and Purpose](#description)
-2.[User Story & Acceptance Criteria](#user story & acceptance criteria)
-3.[Screenshots](#screenshots)
-4.[Usage](#usage)
-5.[Contributors](#contributors)
+2.[User Story](#user-story)
+3.[Acceptance Criteria](#acceptance-criteria)
+4.[Screenshots](#screenshots)
+5.[Usage](#usage)
+6.[Contributors](#contributors)
+7.[Future Development](#future-development)
 ## Description and Purpose
-For this project, the application is a fitness tracker. The fitness tracker allows the user to login days and time spent at the gym. It also allows the user to login steps taken each day. The data inputed then is displayed onto two different charts. 
+This application is meant to be a fitness tracker. The fitness tracker allows the user to log days and time spent at the gym. 
+Ultimately, it will allow the user to log steps taken each day. The data inputed is displayed on two different charts. 
 We were trying to create a user friendly application for the user to be able to easily track their progress.
-## User Story & Acceptance Criteria
 
+## User Story
 ```md
-- User Story:
 AS A person who works out
 I WANT a website to track my excerise
 SO THAT I get gains.
 
-- Acceptance Criteria:
-Given a polish website/ui/application
-When I log in my data
+## Acceptance Criteria
+```md
+Given a polished website/ui/application,
+When I log in my data,
 Both charts will represent the inputed data being tracked.
 
 ## Screenshots
-Below is a screenshot of the deployed site thru heroku
 <!---Screenshot-->
+![login](public\images\allstar-login.png)
+![signup](public\images\allstar-signup.png)
 ## Usage
 Functions that you will use to to use the application once you have installed it:
-Will need to go to the heroku site and follow the prompts.
+Will need to go to the Heroku site and follow the prompts.
+
 ## Contributors
-Houston, Emmanuel, Conrad , Julianne 
+Houston, Emmanuel, Conrad, Julianne 
 
     
