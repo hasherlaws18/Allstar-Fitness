@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Allstar Exercise Tracker</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -16,6 +16,8 @@
                 {{#if loggedIn}}
                 <a href="/dashboard">Track My Workouts</a>
                 <button id="logout" class="btn-no-style logout">Log Out</button>
+                {{else}}
+                <a href="/login">Login</a>
                 {{/if}}
 
             </nav>
@@ -31,7 +33,7 @@
     </div>
 
     {{#if loggedIn}}
-    <script src="./js/logout.js">Logout</script>
+    <script src="/js/logout.js">Logout</script>
     {{/if}}
 
 </body>
