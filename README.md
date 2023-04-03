@@ -28,10 +28,10 @@ and comment on other users' posts.
 
 ## Screenshots
 <!---Screenshot-->
-[!sign-up](public\images\AF-sign-up.png)
-[!dashboard](public\images\AF-comment.png)
-[!edit-post](public\images\AF-edit-post.png)
-[!comment](public\images\AF-comment.png)
+[!sign-up](/public/images/AF-sign-up.png)
+[!dashboard](/public/images/AF-comment.png)
+[!edit-post](/public/images/AF-edit-post.png)
+[!comment](/public/images/AF-comment.png)
 
 ## Usage
 Application is live through Heroku: <!--Link-->
