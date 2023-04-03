@@ -4,8 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Allstar Exercise Tracker</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Allstar Fitness Blog</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <!--Google Font: Indie Flower-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Silkscreen&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -15,30 +20,28 @@
                 <a href="/">Home</a>
             </h1>
             <nav>
-
                 {{#if loggedIn}}
-                <a href="/dashboard">Track My Workouts</a>
+                <a href="/dashboard">Dashboard</a>
                 <button id="logout" class="btn-no-style logout">Log Out</button>
-
                 {{else}}
                 <a href="/login">Login</a>
                 {{/if}}
-
             </nav>
         </header>
         <div class="site-row">
             <div class="site-name">
-                <h1>Allstar Exercise Tracker</h1>
+                <h1>Allstar Fitness Blog &#128692;</h1>
             </div>
         </div>
         <main>
+        
             {{{ body }}}
         </main>
     </div>
 
     {{#if loggedIn}}
-    <script src="../../public/js/logout.js">Logout</script>
+    <script src="/javascript/logout.js"></script>
     {{/if}}
-
 </body>
+
 </html>

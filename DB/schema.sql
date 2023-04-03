@@ -1,2 +1,3 @@
-DROP DATABASE IF EXISTS user_db;
-CREATE DATABASE user_db;
+DROP DATABASE IF EXISTS fitness_tracker_db;
+
+CREATE DATABASE fitness_tracker_db;

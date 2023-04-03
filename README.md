@@ -1,27 +1,44 @@
-# AllStar Fitness Tracker
+# Allstar Fitness Tracker
 ## Table of Contents
-1.[Description and Purpose](#description)
-2.[User Story](#userstory&acceptancecriteria)
-3.[Screenshots](#screenshots)
-4.[Usage](#usage)
-5.[Contributors](#contributors)
+1.[Description](#description)
+2.[User Story](#user-story)
+3.[Acceptance Criteria](#acceptance-criteria)
+4.[Screenshots](#screenshots)
+5.[Usage](#usage)
+6.[Contributors](#contributors)
+7.[Future Development](#future-development)
+
 ## Description
 For this project, the application is a fitness tracker. The fitness tracker allows the user to login days and time spent at the gym. It also allows the user to login steps taken each day. The data inputed then is displayed onto two different charts. 
 We were trying to create a user friendly application for the user to be able to easily track their progress.
-## User Story & Acceptance Criteria
-User Story:
+
+## User Story
+```md
 AS A person who works out
 I WANT a website to track my excerise 
 SO THAT I get gains.
+```
+## Acceptance Criteria
+```md
+Given a polished website/UI/application,
+When a user is logged in,
+They are able to create fitness blog posts
+and comment on other users' posts.
+```
 
-Acceptance Criteria:
-Given a polished website/ui/application
-When I log in my data
-Both charts will represent the inputed data being tracked.
 ## Screenshots
-Below is a screenshot of the deployed site thru heroku
+<!---Screenshot-->
+[!sign-up](public\images\AF-sign-up.png)
+[!dashboard](public\images\AF-comment.png)
+[!edit-post](public\images\AF-edit-post.png)
+[!comment](public\images\AF-comment.png)
+
 ## Usage
-Functions that you will use to to use the application once you have installed it:
-Will need to go to the heroku site and follow the prompts.
+Application is live through Heroku: <!--Link-->
+Simply sign up with a username and password to start posting!
+
 ## Contributors
-Houston, Emmanuel, Conrad, Julianne
+Houston, Emmanuel, Conrad, Julianne 
+
+## Future Development
+Ultimately, we want this application to allow the user to log steps taken each day and track time spent exercising on two different charts using Charts.js, and allow longer length posts.
