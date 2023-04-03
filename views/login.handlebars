@@ -1,28 +1,25 @@
-<!--Login Page-->
-<div class="login-page">      
-
-        <div class="form-section">
-            <form class="login-form">
-                <div class="field input-field">
-                    <input type="email" placeholder="Email"id="email-login">
-                </div>
-
-                <div class="field input-field">
-                    <input type="password" placeholder="Password"id="password-login">
-                    <i class='bx bxs-hide eye-icon'></i>
-                </div>
-
-                <div class="field button-field">
-                    <button type="submit" class="login-signup-btn">Login</button>
-                </div>
-            </form>
-
-            <div class="form-link">
-                <span>Don't have an account?</span> <a href="/signup" class="link signup-link">Signup</a> 
+<section class="login-page">
+    <div class="form-heading">
+        <h1>Login</h1>
+    </div>
+    <div class="form-section">
+        <form class="login-form">
+            <div>
+                <label for="username-login">Username</label>
+                <input type="text" class="entry-field" id="username-login" />
             </div>
-        </div> 
+            <div>
+                <label for="password-login">Password</label>
+                <input type="password" class="entry-field" id="password-login" />
+            </div>
+            <div>
+                <button type="submit" class="login-signup-btn">Submit</button>
+            </div>
+        </form>
+    </div>
 
-        <div class="line"></div>
+    <!--Allows for Facebook and Google Login-->
+    <div class="line"></div>
 
         <div class="media-options">
            <a href="#" class="field facebook">
@@ -38,4 +35,8 @@
 
     </div>
 
-<script src="./js/login.js"></script>
+    <a href="/signup" class="sign-in-link">Sign up</a>
+</section>
+
+<script src="/javascript/login.js"></script>
+

@@ -9,8 +9,7 @@
 6.[Contributors](#contributors)
 7.[Future Development](#future-development)
 ## Description and Purpose
-This application is meant to be a fitness tracker. The fitness tracker allows the user to log days and time spent at the gym. 
-Ultimately, it will allow the user to log steps taken each day. The data inputed is displayed on two different charts. 
+This application is meant to be a fitness tracker. The fitness tracker allows the user to blog about their fitness journey and send encouraging messages to other users.
 We were trying to create a user friendly application for the user to be able to easily track their progress.
 
 ## User Story
@@ -21,19 +20,23 @@ SO THAT I get gains.
 
 ## Acceptance Criteria
 ```md
-Given a polished website/ui/application,
-When I log in my data,
-Both charts will represent the inputed data being tracked.
+Given a polished website/UI/application,
+When a user is logged in,
+They are able to create fitness blog posts
+and comment on other users' posts.
 
 ## Screenshots
 <!---Screenshot-->
-![login](public\images\allstar-login.png)
-![signup](public\images\allstar-signup.png)
+
 ## Usage
 Functions that you will use to to use the application once you have installed it:
 Will need to go to the Heroku site and follow the prompts.
 
 ## Contributors
 Houston, Emmanuel, Conrad, Julianne 
+
+## Future Development
+Ultimately, we want this application to allow the user to log steps taken each day and time spent exercising numerically. 
+The data inputed is displayed on two different charts. 
 
     
