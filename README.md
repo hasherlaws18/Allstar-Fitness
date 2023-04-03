@@ -1,4 +1,4 @@
-# AllStar Fitness Tracker
+# Allstar Fitness Tracker
 ## Table of Contents
 1.[Description and Purpose](#description)
 2.[User Story](#user-story)
