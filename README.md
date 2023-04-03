@@ -29,14 +29,13 @@ and comment on other users' posts.
 <!---Screenshot-->
 
 ## Usage
-Functions that you will use to to use the application once you have installed it:
-Will need to go to the Heroku site and follow the prompts.
+Application is live on Heroku link: <!--Link-->
 
 ## Contributors
 Houston, Emmanuel, Conrad, Julianne 
 
 ## Future Development
 Ultimately, we want this application to allow the user to log steps taken each day and time spent exercising numerically. 
-The data inputed is displayed on two different charts. 
+The data inputed is displayed on two different charts using Charts.js
 
     
