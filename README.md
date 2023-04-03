@@ -1,4 +1,3 @@
-
 # AllStar Fitness Tracker
 ## Table of Contents
 1.[Description and Purpose](#description)
@@ -27,15 +26,18 @@ and comment on other users' posts.
 
 ## Screenshots
 <!---Screenshot-->
-
+[!sign-up](public\images\AF-sign-up.png)
+[!dashboard](public\images\AF-comment.png)
+[!edit-post](public\images\AF-edit-post.png)
+[!comment](public\images\AF-comment.png)
 ## Usage
-Application is live on Heroku link: <!--Link-->
+Application is live through Heroku: <!--Link-->
+Simply sign up with a username and password to start posting!
 
 ## Contributors
 Houston, Emmanuel, Conrad, Julianne 
 
 ## Future Development
-Ultimately, we want this application to allow the user to log steps taken each day and time spent exercising numerically. 
-The data inputed is displayed on two different charts using Charts.js
+Ultimately, we want this application to allow the user to log steps taken each day and track time spent exercising on two different charts using Charts.js, and allow longer length posts.
 
     
