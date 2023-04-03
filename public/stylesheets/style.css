@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=Silkscreen&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -7,8 +9,8 @@ html {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
-    color: 254441;
+    font-family: 'DM Mono', monospace;
+    color: #254441;
 }
 
 main,
@@ -31,7 +33,7 @@ a {
     text-decoration: none;
     font-weight: bold;
     transition: color .1s;
-    font-size: 24px;
+    padding-left: 10px;
 }
 
 button {
@@ -108,12 +110,15 @@ header,
 .sign-in-page,
 .new-form-page,
 .edit-form-page {
-    border: 3px solid #254441;
     padding-bottom: 10px;
+    
 }
 
 .form-heading {
-    padding: 10px;
+    margin: 10px;
+    border: 1px solid #254441;
+    border-radius: 8px;
+    padding-left: 10px;
 }
 
 .info-section,
@@ -121,7 +126,8 @@ header,
 .form-section,
 .sign-in-link,
 .login-link {
-    padding-left: 10px;
+    padding: 10px;
+    
 }
 
 .post-name,
@@ -146,25 +152,24 @@ header h1 {
     padding: 10px;
     float: left;
     justify-content: center;
+    
 }
 
 .site-name {
     margin-bottom: 10px;
+    margin-right: 5px;
     padding: 5px 15px;
-    box-shadow: 7px 7px lightgray;
+    box-shadow: 5px 5px lightgray;
     border-radius: 8px;
     background-color: #43AA8B;
     color: #225ca3;
     text-shadow: -1.3px 0 lightgray, 0 1.3px lightgray, 1.3px 0 lightgray, 0 -1.3px lightgray;
-    font-size: 20px;  
-    font-variant: normal; 
-    font-weight: 700;
     
 }
 
 main {
     flex: 1;
-    padding: 2% 4%;
+    padding: 2% 3%;
 }
 
 .btn-no-style {
@@ -254,6 +259,8 @@ main {
 .sign-in-link,
 .login-link {
     color: #254441;
+    text-align: center;
+    margin-left: 15px;
 }
 
 .form-heading h1,
@@ -265,7 +272,7 @@ main {
 .signup-form,
 .post-content,
 .post-title-section {
-    padding: 10px 10px 0px 0px;
+    padding: 10px;
 }
 
 .entry-field,
