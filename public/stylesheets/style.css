@@ -1,3 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: black;
+}
+
+main,
+.site-name {
+    background-color: #b8cba2;
+}
+
+a,
+.btn-no-style,
 #comment-subtitle {
     color: #b8cba2;
 }
