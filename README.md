@@ -34,7 +34,7 @@ and comment on other users' posts.
 [!comment](public\images\AF-comment.png)
 
 ## Usage
-Application is live through Heroku: <!--Link-->
+Application is live through Heroku: https://allstar-fitness-blog.herokuapp.com/
 Simply sign up with a username and password to start posting!
 
 ## Contributors
