@@ -8,29 +8,30 @@ html {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    color: black;
+    color: 254441;
 }
 
 main,
 .site-name {
-    background-color: #b8cba2;
+    background-color: #FBCAEF;
 }
 
 a,
 .btn-no-style,
 #comment-subtitle {
-    color: #b8cba2;
+    color: #F8FFE5;
 }
 
 a:hover,
 .btn-no-style:hover {
-    color: #e2edd5;
+    color: #F8FFE5;
 }
 
 a {
     text-decoration: none;
     font-weight: bold;
     transition: color .1s;
+    font-size: 24px;
 }
 
 button {
@@ -52,7 +53,7 @@ button:hover {
 }
 
 .go-back {
-    color: black;
+    color: #254441;
 }
 
 textarea,
@@ -100,14 +101,14 @@ header,
 .site-row,
 .info-section,
 .form-heading {
-    background-color: black;
+    background-color: #254441;
 }
 
 .login-page,
 .sign-in-page,
 .new-form-page,
 .edit-form-page {
-    border: 3px solid black;
+    border: 3px solid #254441;
     padding-bottom: 10px;
 }
 
@@ -144,14 +145,20 @@ header h1 {
     border-bottom: 1px solid #ccc;
     padding: 10px;
     float: left;
+    justify-content: center;
 }
 
 .site-name {
     margin-bottom: 10px;
-    padding: 10px;
-    box-shadow: 10px 10px lightgray;
+    padding: 5px 15px;
+    box-shadow: 7px 7px lightgray;
     border-radius: 8px;
-    padding: 5px;
+    background-color: #43AA8B;
+    color: #225ca3;
+    text-shadow: -1.3px 0 lightgray, 0 1.3px lightgray, 1.3px 0 lightgray, 0 -1.3px lightgray;
+    font-size: 20px;  
+    font-variant: normal; 
+    font-weight: 700;
     
 }
 
@@ -187,7 +194,7 @@ main {
 .post {
     margin-bottom: 2%;
     line-height: 150%;
-    border: 3px solid black;
+    border: 3px solid #254441;
 }
 
 .post .title span {
@@ -199,7 +206,7 @@ main {
 .edit-link {
     display: block;
     margin: -1.5% 0 2% 0;
-    color: #2c2307;
+    color: #254441;
 }
 
 .comment-form {
@@ -246,12 +253,12 @@ main {
 
 .sign-in-link,
 .login-link {
-    color: #2c2307;
+    color: #254441;
 }
 
 .form-heading h1,
 .form-heading h2 {
-    color: #b8cba2;
+    color: #F8FFE5;
 }
 
 .login-form,
