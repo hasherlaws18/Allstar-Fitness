@@ -118,7 +118,7 @@ header,
     margin: 10px;
     border: 1px solid #254441;
     border-radius: 8px;
-    padding-left: 10px;
+    padding: 2px 12px;
 }
 
 .info-section,
@@ -210,7 +210,6 @@ main {
 
 .edit-link {
     display: block;
-    margin: -1.5% 0 2% 0;
     color: #254441;
 }
 
@@ -266,6 +265,7 @@ main {
 .form-heading h1,
 .form-heading h2 {
     color: #F8FFE5;
+
 }
 
 .login-form,
@@ -279,5 +279,5 @@ main {
 .login-signup-btn,
 .btn,
 #post-title {
-    width: 95%;
+    width: 100%;
 }
