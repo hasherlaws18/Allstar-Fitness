@@ -1,12 +1,12 @@
 # Allstar Fitness Tracker
 ## Table of Contents
-1.[Description](#description)
-2.[User Story](#user-story)
-3.[Acceptance Criteria](#acceptance-criteria)
-4.[Screenshots](#screenshots)
-5.[Usage](#usage)
-6.[Contributors](#contributors)
-7.[Future Development](#future-development)
+1.[Description](#description);
+2.[User Story](#user-story);
+3.[Acceptance Criteria](#acceptance-criteria);
+4.[Screenshots](#screenshots);
+5.[Usage](#usage);
+6.[Contributors](#contributors);
+7.[Future Development](#future-development);
 
 ## Description
 For this project, the application is a fitness tracker. The fitness tracker allows the user to login days and time spent at the gym. It also allows the user to login steps taken each day. The data inputed then is displayed onto two different charts. 
@@ -34,7 +34,7 @@ and comment on other users' posts.
 [!comment](public\images\AF-comment.png)
 
 ## Usage
-Application is live through Heroku: <!--Link-->
+Application is live through Heroku: https://allstar-fitness-blog.herokuapp.com/
 Simply sign up with a username and password to start posting!
 
 ## Contributors
